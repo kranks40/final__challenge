@@ -260,6 +260,7 @@ img {
 .aside {
     margin: 0 auto;
     background: #3B4050;
+    width: 60%;
 }
 
 .footer {
@@ -312,9 +313,8 @@ img {
 
     .flex-3 {
         display: flex;
-        width: 60%;
         justify-content: space-between;
-        gap: 5em;
+        gap: 10em;
 
     }
 
@@ -358,6 +358,11 @@ img {
 
     .flex-2 .flex-1 {
         flex-direction: column;
+    }
+
+    .footer__title {
+        font-size: 1.5rem;
+        text-justify: inter-ideograph;
     }
 
 }
